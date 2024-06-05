@@ -1,0 +1,36 @@
+.navbar{
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+
+}
+
+.logo{
+    font-size: xx-large;
+    color: blue;
+}
+
+
+.nav-items > ul{
+   
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+    
+
+
+}
+/* .nav-items> li{ */
+    
+
+/* } */
+
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
