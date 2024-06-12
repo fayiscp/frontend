@@ -5,8 +5,10 @@ function Card(props) {
     let { data } = props
     return (
         <div className='card'>
-            <img src="" alt={data.Productname} height={100} width={100} />
+            <img src={data.image} alt={data.Productname} height={100} width={100} />
             <h2>{data.Productname}</h2>
+            <h2>{data.Brandname}</h2>
+            
             {/* <p>{data.Brandname}</p>
             <p>{data.Category}</p>
             <p>{data.Price}</p>

@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer'
 import ProductDetails from './components/ProDetails/ProductDetails'
 import Otp from './components/Otp/Otp'
 import OtpLogin from './components/OtpLogin/OtpLogin'
+import AddProduct from './components/AddProduct/AddProduct'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/login' element={<Login />}/>
           <Route path='/products' element={<Product />} />
+          <Route path='/addproduct' element={<AddProduct/>} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/otp' element={<Otp />} /> 
           <Route path='/productdetails/:id' element={<ProductDetails/>} />
